@@ -1,53 +1,47 @@
-# BikeBuyers Dashboard
+# Bike Purchase Dashboard Dataset
 
-## Overview
+This repository contains a dataset comprising details of 1000 users from diverse backgrounds, focusing on whether they purchased a bike or not. The dataset is specifically curated for building a dashboard using Google Sheets. It includes essential columns such as ID, Marital Status, Gender, Income, Children, Education, Occupation, Home Owner, Cars, Commute Distance, Region, Age, and Purchased Bike. Additionally, intentional null/empty values have been injected into the dataset to simulate real-world data scenarios.
 
-This repository contains a dataset with details of 1000 users from various backgrounds, focusing on whether they purchased a bike or not. The dataset is intended for use in building a dashboard using Google Sheets. The data includes columns such as ID, Marital Status, Gender, Income, Children, Education, Occupation, Home Owner, Cars, Commute Distance, Region, Age, and Purchased Bike. Some NA (Null/Empty) values have been intentionally injected into the dataset, and the goal is to perform data cleaning, exploration, and visualization to help business stakeholders make informed decisions.
+## Objective
 
-## Dashboard Features
-
-### 1. Bar Chart (Marital Status)
-
-**Question:** How does the count of bike purchases vary among different marital statuses? Are married individuals more likely to purchase bikes?
-
-### 2. Bar Chart (Gender)
-
-**Question:** Build a bar graph to compare the count of male and female customers. Does gender influence bike purchases, and if so, to what extent?
-
-### 3. Histogram (Income)
-
-**Question:** What is the distribution of income among bike buyers? Are there specific income brackets that show a higher likelihood of bike purchases?
-
-### 4. Histogram (Age)
-
-**Question:** Create a histogram to understand the age distribution of bike buyers. Are certain age groups more inclined to purchase bikes?
-
-### 5. Box Plot (Income)
-
-**Question:** Identify outliers in the income distribution of bike buyers. Are there any extreme income values, and how might they impact purchasing behavior?
-
-### 6. Pie Chart (Region)
-
-**Question:** Represent the distribution of bike purchases by region using a pie chart. Are there regions where bike purchases are notably higher?
-
-### 7. Scatter Plot (Income vs. Age)
-
-**Question:** Create a scatter plot to investigate the relationship between income and age. Do individuals with higher incomes tend to be in specific age groups?
-
-### 8. Stacked Bar Chart (Marital Status & Gender)
-
-**Question:** How does the distribution of bike purchases differ when considering both marital status and gender simultaneously? Are there notable patterns?
-
-### 9. Correlation Heatmap (Numeric Variables)
-
-**Question:** Use a heatmap to visualize the correlation matrix between numeric variables. What variables show a strong correlation, and how might this influence purchasing behavior?
+The primary objective of this dataset is to facilitate data cleaning, exploration, and visualization, ultimately aiding business stakeholders in making informed decisions regarding bike sales strategies.
 
 ## Usage
 
-1. Download the dataset (`BikeBuyers_Dataset.csv`) from this repository.
-2. Open Google Sheets and import the dataset.
-3. Follow the dashboard suggestions listed above to create visualizations and answer the associated questions.
+This dataset is intended for use in Google Sheets to build a dashboard. Users can import the dataset into Google Sheets and utilize various functions and features of Google Sheets to clean, explore, and visualize the data.
 
-Feel free to explore additional visualizations and analyses to gain deeper insights into the dataset and enhance decision-making for business stakeholders. If you encounter any issues or have suggestions for improvement, please feel free to open an issue or contribute to the repository.
+## Dataset Details
 
-Happy analyzing! 🚴‍♂️📊
+- **ID:** Unique identifier for each user.
+- **Marital Status:** Marital status of the user.
+- **Gender:** Gender of the user.
+- **Income:** Income level of the user.
+- **Children:** Number of children the user has.
+- **Education:** Educational qualification of the user.
+- **Occupation:** Occupation of the user.
+- **Home Owner:** Indicates whether the user owns a home or not.
+- **Cars:** Number of cars owned by the user.
+- **Commute Distance:** Distance of the user's commute.
+- **Region:** Geographic region of the user.
+- **Age:** Age of the user.
+- **Purchased Bike:** Binary variable indicating whether the user purchased a bike Yes(1) or No (0).
+
+## Data Cleaning and Exploration
+
+The dataset may contain null/empty values, which should be handled appropriately during data cleaning. Exploratory data analysis techniques can be applied to gain insights into the relationships between different variables and the likelihood of bike purchases based on various demographic factors.
+
+## Visualization
+
+Visualizing the data through charts, graphs, and tables can provide a clearer understanding of patterns and trends, aiding in decision-making processes.
+
+## Contributions
+
+Contributions to improve the dataset, add new features, or enhance the documentation are welcome. Please fork the repository, make your changes, and submit a pull request.
+
+## License
+
+This dataset is provided under the [MIT License](LICENSE), allowing for unrestricted use, modification, and distribution.
+
+## Credits
+
+This dataset was curated under the guidance and mentorship of Rushikesh Konapure. Special thanks to Rushikesh Konapure and PrepInsta for their valuable insights and support throughout the project.
